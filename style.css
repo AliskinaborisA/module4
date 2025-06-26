@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #74E1FF;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+    background-image: url("images/clouds.png");
+    background-size: cover;
+    background-position: right bottom;
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo-image {
+    margin-top: 30%;
+    width: 70%;
+}
+
+.welcome-h2 {
+    margin: 10% 0 0 0;
+    font-size: 7vw;
+    color: white;
+    width: 70%;
+}
+
+.welcome-h3 {
+    margin: 10% 0 0 0;
+    font-size: 5vw;
+    color: white;
+    width: 70%;
+}
+
+@media(min-width: 900px) {
+    .background {
+        left: auto;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background-position: right bottom;
+    }
+
+    .logo-container {
+        width: 50vw;
+    }
+
+    .logo-image {
+        margin-top: 10%;
+        width: 70%;
+    }
+
+    .welcome-h2 {
+        margin: 10% 0 0 0;
+        font-size: 4vw;
+        color: white;
+        width: 70%;
+    }
+
+    .welcome-h3 {
+        margin: 10% 0 0 0;
+        font-size: 3vw;
+        color: white;
+        width: 70%;
+    }
+}
