@@ -1,6 +1,5 @@
 .gallery-section {
     height: 100vh;
-    margin: 0 16px 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,10 +17,10 @@
 }
 
 .playroom-image, .space-image, .shop-image  {
-    flex: 1 0 100%;
     width: 80vw;
+    margin: 0 10vw;
+    flex-shrink: 0;
     box-sizing: border-box;
-    padding: 100px;
 }
 
 .right-chevron, .left-chevron {
@@ -49,10 +48,7 @@
     }
 
     .playroom-image, .space-image, .shop-image  {
-        flex: 1 0 33.33%;
-        width: 30vw;
-        padding: 5vw;
+        width: 20vw;
+        margin: 0 5vw;
     }
-
-
 }

@@ -3,15 +3,13 @@ const images = document.querySelectorAll('.slides img');
 const leftChevron = document.querySelector('.left-chevron');
 const rightChevron = document.querySelector('.right-chevron');
 
-console.log(slides);
-console.log(images);
-console.log(leftChevron);
-console.log(rightChevron);
-
 let currentIndex = 0;
+const style = window.getComputedStyle(images[0]);
 
 function updateSlide() {
-    const itemWidth = images[0].getBoundingClientRect().width;
+    const marginLeft = parseFloat(style.marginLeft);
+    const marginRight = parseFloat(style.marginRight);
+    const itemWidth = images[0].offsetWidth + marginLeft + marginRight;
     slides.style.transform = `translateX(${-currentIndex * itemWidth}px`;
 }
 
