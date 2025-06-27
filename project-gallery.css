@@ -18,9 +18,11 @@
 
 .playroom-image, .space-image, .shop-image  {
     width: 80vw;
+    max-height: 100vh;
     margin: 0 10vw;
     flex-shrink: 0;
     box-sizing: border-box;
+    object-fit: contain;
 }
 
 .right-chevron, .left-chevron {
