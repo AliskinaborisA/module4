@@ -1,0 +1,58 @@
+.gallery-section {
+    height: 100vh;
+    margin: 0 16px 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.playroom-image, .space-image, .shop-image  {
+    flex: 1 0 100%;
+    width: 80vw;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.right-chevron, .left-chevron {
+    position: absolute;
+    top: 50%;
+    width: 10vw;
+}
+
+.right-chevron {
+    right: 16px;
+}
+
+.left-chevron {
+    left: 16px
+}
+
+@media(min-width: 900px) {
+    .gallery-section {
+        justify-content: center;
+        margin: 5vw;
+    }
+
+    .right-chevron, .left-chevron {
+        display: none;
+    }
+
+    .playroom-image, .space-image, .shop-image  {
+        flex: 1 0 33.33%;
+        width: 30vw;
+        padding: 5vw;
+    }
+
+
+}

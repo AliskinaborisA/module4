@@ -1,0 +1,22 @@
+.plane-path {
+    position: absolute;
+    height: 90vh;
+    left: -50%;
+    margin: 64px 0 64px 0;
+}
+
+.plane {
+    position: absolute;
+    left: 0;
+    width: 35px;
+    height: 29px;
+}
+
+@media (min-width: 900px) {
+    .plane-path {
+        width: 110vw;
+        height: 100vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
