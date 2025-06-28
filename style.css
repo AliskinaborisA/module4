@@ -21,13 +21,15 @@ body {
 }
 
 .footer-image {
-    transform: translateX(-50%);
+    transform: translateX(-25%);
+    width: 200vw;
     display: block;
     margin: 0;
 }
 
 @media (min-width: 900px) {
     .footer-image {
-        transform: translateX(-25%);
+        width: 130vw;
+        transform: translateX(-10%);
     }
 }
