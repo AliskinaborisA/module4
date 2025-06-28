@@ -52,5 +52,12 @@
     .playroom-image, .space-image, .shop-image  {
         width: 20vw;
         margin: 0 5vw;
+        transform: scale(0.9);
+    }
+
+    .playroom-image:hover, .space-image:hover, .shop-image:hover  {
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.0);
     }
 }
