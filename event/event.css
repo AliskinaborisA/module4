@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 16px;
+}
+
+.poster-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-container img {
+    width: 100%;
+}
+
+.poster-container p {
+    font-size: medium;
+}
+
+.poster-container {
+    width: 70vw;
+}
+
+@media (min-width: 900px) {
+    .poster-list {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .poster-container {
+        width: 20vw;
+    }
+
+    .poster-container p {
+        font-size: large;
+    }
+
+    .poster-container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
