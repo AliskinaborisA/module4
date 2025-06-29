@@ -1,28 +1,4 @@
 
-.navigation-header {
-    display: flex;
-    justify-content: space-around;
-    margin: 16px;
-
-    background-color: #131E27;
-    color: white;
-    border-radius: 48px;
-    font-size: 3.5vw;
-}
-
-a {
-    color: white;
-    font-style: normal;
-    padding: 8px;
-    text-decoration: none;
-    transition: transform 0.2s ease-in-out;
-}
-
-a:hover {
-    color: #48CAE4;
-    transform: scale(1.05);
-}
-
 .product-list {
     display: flex;
     justify-content: center;
