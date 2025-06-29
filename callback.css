@@ -68,6 +68,7 @@ input {
     background: #0f1921;
     box-shadow: 0 4px 12px rgba(21,101,192,0.2);
     transform: scale(1.04);
+    cursor: pointer;
 }
 
 @media (min-width: 900px) {
