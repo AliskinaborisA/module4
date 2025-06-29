@@ -16,7 +16,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.playroom-image, .space-image, .shop-image  {
+.slides img {
     width: 80vw;
     max-height: 100vh;
     margin: 0 10vw;
@@ -46,17 +46,23 @@
     }
 
     .right-chevron, .left-chevron {
-        display: none;
+        width: 48px;
+        transition: transform 0.1s ease-in-out;
     }
 
-    .playroom-image, .space-image, .shop-image  {
+    .right-chevron:hover, .left-chevron:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .slides img {
         width: 20vw;
         margin: 0 5vw;
         transform: scale(0.9);
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.2s ease-in-out;
     }
 
-    .playroom-image:hover, .space-image:hover, .shop-image:hover  {
+    .slides img:hover {
         cursor: pointer;
         transform: scale(1.0);
     }
