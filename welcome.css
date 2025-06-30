@@ -66,14 +66,14 @@
     .welcome-h2 {
         margin: 10% 0 0 0;
         font-size: 4vw;
-        color: white;
+        color: #131E27;
         width: 70%;
     }
 
     .welcome-h3 {
         margin: 10% 0 0 0;
         font-size: 2vw;
-        color: white;
+        color: #131E27;
         width: 70%;
     }
 }
