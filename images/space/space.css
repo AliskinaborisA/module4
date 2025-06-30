@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 16px;
+}
+
+.render-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.render-container img {
+    width: 100%;
+}
+
+.render-container p {
+    font-size: medium;
+}
+
+.render-container {
+    width: 80vw;
+}
+
+@media (min-width: 900px) {
+    .render-list {
+        gap: 32px;
+    }
+
+    .render-container {
+        width: 85vw;
+    }
+
+    .render-container img {
+        width: 50%;
+        margin: 16px 32px;
+    }
+
+    .render-container p {
+        font-size: 1.7vw;
+        margin: 16px 32px;
+    }
+
+    .reception-render {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .room-render {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .pool-render {
+        display: flex;
+        flex-direction: row;
+    }
+}
